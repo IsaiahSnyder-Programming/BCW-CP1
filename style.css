@@ -1,0 +1,35 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --black-opaque: rgba(0, 0, 0, 0.4);
+}
+
+body {
+    /* NOTE Custom Font Usage */
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-image {
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1643865420039-0c4d77d0553f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+
+.h-form {
+    
+}
+
+.h-text {
+    background-color: var(--black);
+    background-color: var(--black-opaque);
+
+    text-align: center;
+
+}
+
+.card-pic {
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+
+}
