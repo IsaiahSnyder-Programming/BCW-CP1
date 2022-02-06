@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
 
 
-    <title>Document</title>
+    <title>Sell Your Soul</title>
 
     <style>
       body.debug .container,
@@ -43,7 +43,7 @@
 
     
     <!-- REMINDER add sticky-top -->
-    <header class="container-fluid sticky-top bg-light">
+    <header class="container-fluid sticky-top bg-dark">
 
         <!-- Look at B5:Collapse & Window Scroll Listener JS (MDN Scroll_Event) -->
         <!-- NOTE Navbar Title -->
@@ -55,21 +55,21 @@
 
 
         <!-- NOTE Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-rules">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-rules">
             <div class="container-fluid p-2">
-              <a class="navbar-brand p-1" href="#">HOME</a>
+              <a class="navbar-brand p-1 rounded-3 ps-5 pe-5 pt-3 pb-3 nav-btn-home nav-rules" href="#">HOME</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item bg-danger rounded-2 nav-btn-border">
+                  <li class="nav-item rounded-2 nav-btn-sm">
                     <a class="nav-link active ps-4 pe-4" aria-current="page" href="#">Home</a>
                   </li>
-                  <li class="nav-item bg-danger rounded-2 nav-btn-border">
+                  <li class="nav-item rounded-2 nav-btn-sm">
                     <a class="nav-link active ps-4 pe-4" href="#">Features</a>
                   </li>
-                  <li class="nav-item bg-danger rounded-2 nav-btn-border">
+                  <li class="nav-item rounded-2 nav-btn-sm">
                     <a class="nav-link active ps-4 pe-4" href="#">Pricing</a>
                   </li>
                 </ul>
@@ -90,7 +90,7 @@
             <!-- NOTE Form Column -->
             <div class="col-12 col-md-4 text-center h-15">
                 <!-- NOTE Form -->
-                <form class="row bg-light rounded-2 m-5 g-3 p-3">
+                <form class="row bg-dark text-light rounded-2 m-5 g-3 p-3">
                     <div class="col-md-6">
                       <label for="inputEmail4" class="form-label">Email</label>
                       <input type="email" class="form-control" id="inputEmail4">
@@ -111,16 +111,9 @@
                       <label for="inputCity" class="form-label">City</label>
                       <input type="text" class="form-control" id="inputCity">
                     </div>
-                    <div class="col-md-4">
-                      <label for="inputState" class="form-label">State</label>
-                      <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="inputZip">
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
                     </div>
                     <div class="col-12">
                       <div class="form-check">
@@ -137,7 +130,7 @@
             </div>
 
             <!-- NOTE Text Column -->
-            <div class="col-md-6 text-light text-center h-text">
+            <div class="col-md-6 text-light text-center h-text p-2">
                 <h1>Text Over An Image</h1>
                 <p>More Text and Stuff</p>
             </div>
@@ -159,7 +152,7 @@
 
                     <!-- NOTE Card Right & Top -->
                     <div class="col-12 order-1 col-md-6 order-md-2">
-                        <div class="text-start p-2 m-3 card-trans bg-light rounded-2">
+                        <div class="text-start p-3 pt-4 m-3 card-trans bg-light rounded-2">
                             <h4>
                                 <i class="mdi mdi-muffin"></i>
                                 <b>This Guy</b>
@@ -191,11 +184,11 @@
         <!-- NOTE 3rd Section Image and Text -->
         <div class="row justify-content-center align-items-center container-fluid p-5">
 
-            <div class="col-12 col-md-4 d-flex justify-content-center bg-light rounded-2">
-                <img  class="img-3 " src="https://images.unsplash.com/photo-1643894708424-0ce015f720f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="Img 3">
+            <div class="col-12 col-md-4 p-2 d-flex justify-content-center bg-light rounded-2">
+                <img  class="img-3" src="https://images.unsplash.com/photo-1643894708424-0ce015f720f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="Img 3">
             </div>
 
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-8 p-3">
                 <h1 class="text-dark">Hello There</h1>
                 <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quo, voluptates ipsum est, illo provident architecto sint earum consectetur fuga illum minus ex itaque aperiam autem rem quam in? Nam.</p>
             </div>
