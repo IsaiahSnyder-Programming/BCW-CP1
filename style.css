@@ -8,6 +8,16 @@ body {
     font-family: 'Bebas Neue', cursive;
 }
 
+.nav-rules {
+    font-size: large;
+    
+}
+
+.nav-btn-border {
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
 .bg-image {
     min-height: 80vh;
     background-size: cover;
